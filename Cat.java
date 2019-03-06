@@ -1,7 +1,7 @@
 public class Cat extends Animal implements Jump {
     private int jumpHeight;
 
-    public Cat(int canRunDistance, int jumpHeight) {
+    public Cat(int canRunDistance, int jumpHeight, String name) {
         super(canRunDistance, "cat");
         this.jumpHeight = jumpHeight;
     }

@@ -1,22 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        Animal[] animals = {
-                Team.teamOne = new Team();
-        };
 
-        Obstacle[] obstacles = {new Road(3), new Water(3), new Wall(3)};
+        Team catTeam = new Team();
+        Course roadOfHell = new Course();
 
-        for (Obstacle ob : obstacles) {
-            for (Animal al2 : animals) {
-                ob.doIt(al2);
+        public void survive () {
+            for (Course c : roadOfHell) {
+                for (Team t : catTeam) {
+                    roadOfHell.doIt(catTeam);
+                }
+            }
+        }
+        public void showResults () {
+            for (Course с : roadOfHell) {
+                System.out.println(catTeam.getName() + " on distance " + catTeam.isOnDistance());
             }
         }
 
 
-        for (Animal al2 : animals) {
-            System.out.println(al2.getName() + " on distance " + al2.isOnDistance());
-        }
 
     }
-
 }

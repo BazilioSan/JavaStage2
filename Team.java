@@ -1,8 +1,11 @@
 public class Team {
 
-    Cat Barsik = new Cat(8,4);
-    Cat Murzik = new Cat(5,6);
-    Dog Barbos = new Dog(8,5,4 );
-    Dog Killer = new Dog(12,14,5 );
-
+       Cat [] catTeam = {
+              new Cat(8,6, "Barsik"),
+              new Cat(10,12, "DogKiller"),
+              new Cat(4,2, "Pussy"),
+              new Cat(8,3, "Toast")
+    };
+              String getName() { return Cat.name;}
 }
+
