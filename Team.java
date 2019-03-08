@@ -6,6 +6,13 @@ public class Team {
               new Cat(4,2, "Pussy"),
               new Cat(8,3, "Toast")
     };
-              String getName() { return Cat.name;}
+              String getName() { return catTeam.name;}
+
+
+        public void getNameOfCats (catTeam) {
+            System.out.println(getName());
+        }
+    }
+
 }
 

@@ -11,11 +11,7 @@ public class Main {
                 }
             }
         }
-        public void showResults () {
-            for (Course с : roadOfHell) {
-                System.out.println(catTeam.getName() + " on distance " + catTeam.isOnDistance());
-            }
-        }
+
 
 
 

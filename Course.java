@@ -5,6 +5,8 @@ public class Course {
         new Road(10)
     };
    public void doIt () {
+       for (roadOfHell a : Team);
+
    }
 }
 
